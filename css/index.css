@@ -1,16 +1,22 @@
-@import "./stylesheet.css";
-
 body {
   background-color: rgb(255, 255, 255);
   font: 300 1em/1.38 Lato;
   color: rgb(0, 0, 0);
 }
 
+.bio-1 p,
+.bio-2 p,
+.bio-5 p,
+.container p,
+.details-1 p {
+  margin-bottom: 1em;
+}
+
 .accomadotions {
   position: relative;
   float: left;
   clear: both;
-  z-index: 60;
+  z-index: 74;
   width: 100%;
   margin-top: 1000px;
   padding-bottom: 100px;
@@ -18,8 +24,8 @@ body {
 }
 
 .accomadotions .down-arrow,
-.our-story .down-arrow,
-.the-party .down-arrow,
+.jeffs-story .down-arrow,
+.nicoles-story .down-arrow,
 .the-proposal .down-arrow {
   width: 12%;
   margin: 60px 0 0 44%;
@@ -38,43 +44,45 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 7;
+  z-index: 9;
   width: 100%;
 }
 
 .bio {
   float: left;
-  clear: both;
-  width: 66.25%;
-  margin-left: 16.83073%;
-  font-size: 1em;
   line-height: 1.38;
   text-align: justify;
   color: rgb(0, 0, 0);
 }
 
 .container {
+  position: relative;
   float: left;
   clear: both;
-  width: 66.28515625%;
-  margin: 60px 0 0 16.83073%;
+  z-index: 78;
+  width: 25.5989583333%;
+  height: 404px;
+  margin: 41px 0 0 16.83073%;
 }
 
-.container .pic {
-  height: 380px;
-  border-color: rgb(255, 255, 255);
-  background-repeat: no-repeat;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+.container .details {
+  width: 99.7362012987%;
+  margin-left: -0.12716%;
 }
 
 .crowd-fund {
   position: relative;
   float: left;
-  z-index: 64;
-  width: 32.4%;
-  height: 412px;
-  margin: -312px 0 0 8.39974%;
-  border: 4px dashed rgba(122, 64, 196, 0.3);
+  z-index: 79;
+  width: 32.4166666666%;
+  height: 404px;
+  margin: 41px 0 0 8.40365%;
+  border: 5px solid rgb(255, 255, 255);
+  background: url('../images/love-hearts-herzen-island-maldives-landscape.jpg') rgb(255, 255, 255);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
 }
 
 .date {
@@ -95,22 +103,17 @@ body {
   margin: 10px 0 0 16.79948%;
   font-size: 1em;
   line-height: 1.38;
+  text-align: justify;
   color: rgb(0, 0, 0);
 }
 
 .details {
-  position: relative;
   float: left;
-  clear: both;
   min-height: 258px;
-  margin-left: 16.79948%;
   font-size: 1em;
   line-height: 1.5;
+  text-align: justify;
   color: rgb(0, 0, 0);
-}
-
-.details-1 p {
-  margin-bottom: 1em;
 }
 
 .down-arrow {
@@ -135,17 +138,11 @@ body {
   position: relative;
   float: left;
   clear: both;
-  z-index: 65;
+  z-index: 80;
   width: 100%;
-  margin-top: 1000px;
-  padding-bottom: 100px;
+  margin-top: 900px;
+  padding-bottom: 300px;
   background-color: rgb(255, 250, 245);
-}
-
-.gifts .details {
-  z-index: 62;
-  width: 25.5989583333%;
-  margin-top: 41px;
 }
 
 .gifts .section {
@@ -182,7 +179,7 @@ body {
 .herotitle .herotitle {
   width: 100%;
   margin: 0 auto;
-  text-shadow: 0 6px 30px rgb(29, 44, 7);
+  text-shadow: 0 5px 20px rgba(0, 0, 0, 0.65);
   font: normal 4.125em/1 JaneAusten;
   text-align: center;
   color: rgb(255, 255, 255);
@@ -213,12 +210,44 @@ body {
   clear: both;
   width: 69.028871391%;
   margin-left: 15.46916%;
+  font-size: 1em;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.jeffs-story {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 36;
+  width: 100%;
+  margin-top: 900px;
+  padding-bottom: 100px;
+  background-color: rgb(255, 250, 245);
+}
+
+.jeffs-story .bio {
+  width: 31.9710286458%;
+}
+
+.jeffs-story .section,
+.nicoles-story .section {
+  float: left;
+  width: 80%;
+  margin: 100px 0 0 10%;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(122, 64, 196, 0.3);
+  text-align: center;
+}
+
+.jeffs-story .story {
+  width: 79.9765625%;
 }
 
 .map-wrapper {
   position: relative;
   float: left;
-  z-index: 33;
+  z-index: 47;
   width: 32.4005208333%;
   height: 392px;
   margin: 24px 0 0 8.39974%;
@@ -227,28 +256,32 @@ body {
   overflow: hidden;
 }
 
-.our-story {
+.nicoles-story {
   position: relative;
   float: left;
   clear: both;
-  z-index: 22;
+  z-index: 29;
   width: 100%;
-  margin-top: 100px;
+  margin-top: 1000px;
   padding-bottom: 100px;
   background-color: rgb(255, 250, 245);
 }
 
-.our-story .section {
-  float: left;
-  width: 66.25%;
-  margin: 100px 0 0 16.83073%;
+.nicoles-story .bio {
+  width: 31.9791666666%;
+}
+
+.nicoles-story .story {
+  width: 79.9830729166%;
 }
 
 .pic {
+  position: relative;
   float: left;
   border-width: 5px;
   border-style: solid;
   background-size: cover;
+  background-position: center center;
   background-color: rgb(222, 222, 222);
 }
 
@@ -285,7 +318,6 @@ body {
 .rsvp:hover {
   border-color: rgb(122, 64, 196);
   background-color: rgb(122, 64, 196);
-  color: rgb(255, 255, 255);
 }
 
 .section {
@@ -297,32 +329,40 @@ body {
   float: left;
   width: 100%;
   min-height: 1000px;
-  background-repeat: no-repeat;
   background-size: cover;
 }
 
-.text {
+.story {
+  float: left;
+  clear: both;
+  margin: 60px 0 0 10%;
+}
+
+.story .bio {
   font-size: 1em;
+}
+
+.text {
   line-height: 1.38;
-  text-align: center;
-  color: rgb(0, 0, 0);
 }
 
 .the-event {
   position: relative;
   float: left;
   clear: both;
-  z-index: 35;
+  z-index: 49;
   width: 100%;
-  margin-top: 1000px;
+  margin-top: 940px;
   padding-bottom: 100px;
   background-color: rgb(255, 250, 245);
 }
 
 .the-event .details {
-  z-index: 32;
+  position: relative;
+  clear: both;
+  z-index: 46;
   width: 25.6%;
-  margin-top: 24px;
+  margin: 24px 0 0 16.79948%;
 }
 
 .the-event .down-arrow {
@@ -341,21 +381,26 @@ body {
   position: relative;
   float: left;
   clear: both;
-  z-index: 46;
+  z-index: 60;
   width: 100%;
-  margin-top: 1000px;
+  margin-top: 950px;
   padding-bottom: 100px;
   background-color: rgb(255, 250, 245);
 }
 
+.the-party .down-arrow {
+  width: 12%;
+  margin: 200px 0 0 44%;
+  line-height: 1.38;
+  color: rgb(122, 64, 196);
+}
+
 .the-party .pic {
-  position: relative;
   clear: both;
   width: 18.8333333333%;
   height: 220px;
   margin-left: 10%;
   border-color: rgb(255, 255, 255);
-  background-position: center center;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -369,24 +414,55 @@ body {
   position: relative;
   float: left;
   clear: both;
-  z-index: 30;
+  z-index: 44;
   width: 100%;
-  margin-top: 800px;
+  margin-top: 1000px;
   padding-bottom: 100px;
   background-color: rgb(255, 250, 245);
 }
 
 .the-proposal .pic {
-  position: relative;
   height: 300px;
   border-color: rgb(255, 250, 245);
-  background-position: center center;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .the-proposal .section {
   float: left;
   margin: 100px 0 0 16.83073%;
+}
+
+.welcome {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 22;
+  width: 100%;
+  margin-top: 100px;
+  padding-bottom: 100px;
+  background-color: rgb(255, 250, 245);
+}
+
+.welcome .bio {
+  clear: both;
+  width: 52.5833333333%;
+  margin: 80px 0 0 23.70573%;
+  font-size: 1.313em;
+  font-weight: 100;
+}
+
+.welcome .down-arrow {
+  width: 12%;
+  margin: 80px 0 0 43.99349%;
+  line-height: 1.38;
+  color: rgb(122, 64, 196);
+}
+
+.welcome .text {
+  float: left;
+  min-height: 74px;
+  font-family: JaneAusten;
+  font-weight: normal;
 }
 
 ._button {
@@ -402,7 +478,7 @@ body {
   display: block;
   float: left;
   height: 60px;
-  padding: 0 10px 0 20px;
+  padding: 0 10px;
   background-color: rgba(255, 255, 255, 0.85);
   font-size: 1em;
   font-weight: 400;
@@ -410,18 +486,21 @@ body {
   color: rgb(0, 0, 0);
 }
 
-.gifts ._button {
-  position: relative;
-  z-index: 63;
-  width: 25.5989583333%;
+.container ._button {
+  width: 99.7362012987%;
   height: 60px;
-  margin: 40px 0 0 16.79948%;
+  margin: 40px 0 0 -0.12716%;
   border: 5px solid rgb(122, 64, 196);
   font-weight: 400;
   color: rgb(122, 64, 196);
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+  -o-transition: .2s;
+  -ms-transition: .2s;
+  transition: .2s;
 }
 
-.gifts ._button:hover {
+.container ._button:hover {
   background-color: rgb(122, 64, 196);
   color: rgb(255, 255, 255);
 }
@@ -435,40 +514,53 @@ body {
   color: rgb(255, 250, 245);
 }
 
+.bio-3,
+.bio-4 {
+  margin: 16px 0 0 2.01866%;
+}
+
+.bio-6 {
+  margin: 16px 0 0 2.02208%;
+}
+
+.bio-7 {
+  margin: 16px 0 0 2.02859%;
+}
+
 .empty-pic-1 {
-  z-index: 38;
+  z-index: 52;
   margin-top: 30px;
 }
 
 .empty-pic-2 {
-  z-index: 39;
+  z-index: 53;
   margin-top: 30px;
 }
 
 .empty-pic-3 {
-  z-index: 40;
+  z-index: 54;
   margin-top: 30px;
 }
 
 .empty-pic-4 {
-  z-index: 42;
+  z-index: 56;
   margin-top: 20px;
 }
 
 .empty-pic-5 {
-  z-index: 43;
+  z-index: 57;
   margin-top: 20px;
 }
 
 .empty-pic-6 {
-  z-index: 44;
+  z-index: 58;
   margin-top: 20px;
 }
 
 .herotitle-1 {
   position: relative;
   float: left;
-  z-index: 15;
+  z-index: 17;
   width: 80%;
   margin: 110px 0 0 10%;
 }
@@ -483,66 +575,53 @@ body {
 
 .hotel-block-1 {
   clear: both;
-  z-index: 52;
+  z-index: 66;
   margin-left: 16.83073%;
 }
 
 .hotel-block-2 {
-  z-index: 57;
+  z-index: 71;
   margin-left: 1.58073%;
 }
 
 .pic-1 {
-  width: 48.7437185929%;
-  background-image: url('../images/Nicole-Jeff-Engagement-164.jpg');
-  background-position: 50% 34%;
-}
-
-.pic-2 {
-  width: 48.7182003768%;
-  margin-left: 2.46528%;
-  background-image: url('../images/Nicole-Jeff-Engagement-242.jpg');
-  background-position: 50% 65%;
-}
-
-.pic-3 {
   clear: both;
-  z-index: 25;
+  z-index: 39;
   width: 32.4005208333%;
   margin: 55px 0 0 16.79948%;
   background-image: url('../images/SparklingDiamond.jpg');
 }
 
-.pic-4 {
-  z-index: 26;
+.pic-2 {
+  z-index: 40;
   width: 32.3997395833%;
   margin: 55px 0 0 1.59896%;
   background-image: url('../images/RomanticKiss.jpg');
 }
 
-.pic-5 {
+.pic-3 {
   clear: both;
-  z-index: 27;
+  z-index: 41;
   width: 32.3997395833%;
   margin: 20px 0 0 16.79948%;
   background-image: url('../images/HappyHugs.jpg');
 }
 
-.pic-6 {
-  z-index: 28;
+.pic-4 {
+  z-index: 42;
   width: 32.3997395833%;
   margin: 20px 0 0 1.66667%;
   background-image: url('../images/PutARingOnIt2.jpg');
 }
 
-.pic-7 {
-  z-index: 37;
+.pic-5 {
+  z-index: 51;
   margin-top: 30px;
   background-image: url('../images/10299089_10154116046385052_2097675454631917372_n.jpg');
 }
 
-.pic-8 {
-  z-index: 41;
+.pic-6 {
+  z-index: 55;
   margin-top: 20px;
   background-image: url('../images/162703_10150138163230961_4830296_n.jpg');
 }
@@ -550,48 +629,95 @@ body {
 .slide-1 {
   height: 756px;
   background-image: url('../images/Nicole-Jeff-Engagement-230(2).jpg');
-  background-position: 50% 80%;
+  background-repeat: no-repeat;
+  background-position: 50% 89%;
 }
 
 .slide-2 {
   clear: both;
   height: 1059px;
-  background-image: url('../images/TheQuestion(2).jpg');
-  background-position: left center;
+  background-image: url('../images/Nicole-Jeff-Engagement-164(2).jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 20%;
 }
 
 .slide-3 {
   clear: both;
   height: 1059px;
-  background-image: url('../images/Evening-from-lawn-2editedGershon-Wolfe-small.jpg');
-  background-position: center center;
+  background-image: url('../images/Nicole-Jeff-Engagement-242(2).jpg');
+  background-position: 50% 90%;
+  background-color: rgb(122, 64, 196);
 }
 
 .slide-4 {
   clear: both;
   height: 1059px;
-  background-image: url('../images/Nicole-Jeff-Engagement-143(2).jpg');
-  background-position: center center;
+  background-image: url('../images/TheQuestion(2).jpg');
+  background-repeat: no-repeat;
+  background-position: left center;
 }
 
 .slide-5 {
   clear: both;
   height: 1059px;
-  background-image: url('../images/2000x1352.jpg');
+  margin-top: 150px;
+  background-image: url('../images/Evening-from-lawn-2editedGershon-Wolfe-small.jpg');
+  background-repeat: no-repeat;
   background-position: center center;
 }
 
 .slide-6 {
   clear: both;
   height: 1059px;
+  background-image: url('../images/Nicole-Jeff-Engagement-143(2).jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.slide-7 {
+  clear: both;
+  height: 1059px;
+  background-image: url('../images/2000x1352.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.slide-8 {
+  clear: both;
+  height: 1059px;
   background-image: url('../images/Nicole-Jeff-Engagement-139(2).jpg');
+  background-repeat: no-repeat;
   background-position: center center;
 }
 
 .text-1 {
+  width: 66.4005208333%;
+  margin: 150px 0 0 16.79948%;
+  font-size: 3.5em;
+  text-align: center;
+  color: rgb(122, 64, 196);
+}
+
+.text-2 {
+  clear: both;
+  width: 32.6666666666%;
+  margin: 50px 0 0 23.70573%;
+  font-size: 2.063em;
+  color: rgb(45, 43, 48);
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+
+.text-3 {
   width: 39.1666666666%;
   margin: 143px auto 0;
+  font-size: 1em;
   font-weight: 400;
+  text-align: center;
+  color: rgb(0, 0, 0);
 }
 
 .hero-form ._input-1 {
@@ -606,10 +732,50 @@ body {
 
 .hotel-block ._button-1 {
   margin-top: 147px;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+  -o-transition: .2s;
+  -ms-transition: .2s;
+  transition: .2s;
+}
+
+.hotel-block ._button-1:hover {
+  -webkit-transform: scale(1.05,1.05);
+  -moz-transform: scale(1.05,1.05);
+  -o-transform: scale(1.05,1.05);
+  -ms-transform: scale(1.05,1.05);
+  transform: scale(1.05,1.05);
 }
 
 .hotel-block ._button-2 {
   margin-top: 146px;
+  opacity: 0.5;
+}
+
+.bio span {
+  font-style: italic;
+}
+
+.bio strong {
+  font-size: 2em;
+}
+
+.bio-1 strong {
+  font-weight: inherit;
+}
+
+.bio-2 strong,
+.bio-5 strong {
+  font-weight: 100;
+}
+
+.details a {
+  text-decoration: inherit;
+  color: rgb(122, 64, 196);
+}
+
+.details a:hover {
+  text-decoration: underline;
 }
 
 .details span {

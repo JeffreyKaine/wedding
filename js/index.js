@@ -3,6 +3,7 @@
   var $slide = $('.js-slide');
   var $bg = $('.js-bg');
 
+
   $('button.rsvp').click(function () {
 
     var name = $('.hero-form ._input-1').val()
