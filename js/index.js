@@ -3,6 +3,18 @@
   var $slide = $('.js-slide');
   var $bg = $('.js-bg');
 
+  $('button.rsvp').click(function () {
+
+    var name = $('.hero-form ._input-1').val()
+    var guests = $('.hero-form ._input-2').val()
+
+    $.get('/rsvp?name='+name+'&guests='+guests, function (d) {
+      $('.hero-form ._input-1').val('')
+      $('.hero-form ._input-2').val('')
+      alert('woot!')
+    })
+
+  })
 
   // trigger parallax function on window scroll
   $(window).scroll(function(e){
