@@ -1,0 +1,616 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: 300 1em/1.38 Lato;
+  color: rgb(0, 0, 0);
+}
+
+.accomadotions {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 60;
+  width: 100%;
+  margin-top: 1000px;
+  padding-bottom: 100px;
+  background-color: rgb(255, 250, 245);
+}
+
+.accomadotions .down-arrow,
+.our-story .down-arrow,
+.the-party .down-arrow,
+.the-proposal .down-arrow {
+  width: 12%;
+  margin: 60px 0 0 44%;
+  line-height: 1.38;
+  color: rgb(122, 64, 196);
+}
+
+.accomadotions .section {
+  float: left;
+  width: 66.3997395833%;
+  margin: 79px 0 0 16.79948%;
+  text-align: center;
+}
+
+.bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 7;
+  width: 100%;
+}
+
+.bio {
+  float: left;
+  clear: both;
+  width: 66.25%;
+  margin-left: 16.83073%;
+  font-size: 1em;
+  line-height: 1.38;
+  text-align: justify;
+  color: rgb(0, 0, 0);
+}
+
+.container {
+  float: left;
+  clear: both;
+  width: 66.28515625%;
+  margin: 60px 0 0 16.83073%;
+}
+
+.container .pic {
+  height: 380px;
+  border-color: rgb(255, 255, 255);
+  background-repeat: no-repeat;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.crowd-fund {
+  position: relative;
+  float: left;
+  z-index: 64;
+  width: 32.4%;
+  height: 412px;
+  margin: -312px 0 0 8.39974%;
+  border: 4px dashed rgba(122, 64, 196, 0.3);
+}
+
+.date {
+  float: left;
+  width: 39.19921875%;
+  min-height: 102px;
+  margin: 252px 0 0 30.39974%;
+  font: 400 3.375em/1.38 JaneAusten;
+  text-align: center;
+  color: rgba(122, 64, 196, 0.3);
+}
+
+.description {
+  float: left;
+  clear: both;
+  width: 66.4005208333%;
+  min-height: 83px;
+  margin: 10px 0 0 16.79948%;
+  font-size: 1em;
+  line-height: 1.38;
+  color: rgb(0, 0, 0);
+}
+
+.details {
+  position: relative;
+  float: left;
+  clear: both;
+  min-height: 258px;
+  margin-left: 16.79948%;
+  font-size: 1em;
+  line-height: 1.5;
+  color: rgb(0, 0, 0);
+}
+
+.details-1 p {
+  margin-bottom: 1em;
+}
+
+.down-arrow {
+  float: left;
+  clear: both;
+  font-family: Helvetica;
+  font-size: 5.625em;
+  font-weight: 400;
+  text-align: center;
+}
+
+.empty-pic {
+  position: relative;
+  float: left;
+  width: 18.8333333333%;
+  height: 220px;
+  margin-left: 1.56641%;
+  border: 5px dashed rgba(122, 64, 196, 0.3);
+}
+
+.gifts {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 65;
+  width: 100%;
+  margin-top: 1000px;
+  padding-bottom: 100px;
+  background-color: rgb(255, 250, 245);
+}
+
+.gifts .details {
+  z-index: 62;
+  width: 25.5989583333%;
+  margin-top: 41px;
+}
+
+.gifts .section {
+  float: left;
+  width: 66.3997395833%;
+  margin: 100px 0 0 16.79948%;
+}
+
+.hero-date {
+  float: left;
+  clear: both;
+  min-height: 30px;
+  margin-left: 51.1849%;
+  font: normal 1.75em/1.38 JaneAusten;
+  color: rgb(122, 64, 196);
+}
+
+.hero-form {
+  float: left;
+  clear: both;
+  width: 82.8125%;
+  height: 60px;
+  margin: 500px 0 0 8.49935%;
+}
+
+.herotitle .down-arrow {
+  width: 15%;
+  min-height: 67px;
+  margin: 41px 0 0 42.49837%;
+  line-height: 1;
+  color: rgb(255, 255, 255);
+}
+
+.herotitle .herotitle {
+  width: 100%;
+  margin: 0 auto;
+  text-shadow: 0 6px 30px rgb(29, 44, 7);
+  font: normal 4.125em/1 JaneAusten;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.hotel {
+  float: left;
+  clear: both;
+  min-height: 57px;
+  font-size: 1.5em;
+  line-height: 1;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.hotel-block {
+  position: relative;
+  float: left;
+  width: 32.4166666666%;
+  height: 508px;
+  margin-top: 100px;
+  border: 4px dashed rgba(122, 64, 196, 0.3);
+  background-color: rgb(255, 250, 245);
+}
+
+.hotel-block .text {
+  float: left;
+  clear: both;
+  width: 69.028871391%;
+  margin-left: 15.46916%;
+}
+
+.map-wrapper {
+  position: relative;
+  float: left;
+  z-index: 33;
+  width: 32.4005208333%;
+  height: 392px;
+  margin: 24px 0 0 8.39974%;
+  border: 5px solid rgb(255, 255, 255);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.our-story {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 22;
+  width: 100%;
+  margin-top: 100px;
+  padding-bottom: 100px;
+  background-color: rgb(255, 250, 245);
+}
+
+.our-story .section {
+  float: left;
+  width: 66.25%;
+  margin: 100px 0 0 16.83073%;
+}
+
+.pic {
+  float: left;
+  border-width: 5px;
+  border-style: solid;
+  background-size: cover;
+  background-color: rgb(222, 222, 222);
+}
+
+.price {
+  float: left;
+  width: 100.0024112848%;
+  min-height: 53px;
+  margin-top: 30px;
+  font-size: 2.25em;
+  line-height: 3;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.rsvp {
+  display: block;
+  float: left;
+  width: 17.9874213836%;
+  height: 60px;
+  margin-left: 2.36439%;
+  border: 5px solid rgb(255, 255, 255);
+  font-size: 1.5em;
+  font-weight: 400;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  transition: .5s;
+}
+
+.rsvp:hover {
+  border-color: rgb(122, 64, 196);
+  background-color: rgb(122, 64, 196);
+  color: rgb(255, 255, 255);
+}
+
+.section {
+  font: normal 2.25em/1 JaneAusten;
+  color: rgb(122, 64, 196);
+}
+
+.slide {
+  float: left;
+  width: 100%;
+  min-height: 1000px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text {
+  font-size: 1em;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.the-event {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 35;
+  width: 100%;
+  margin-top: 1000px;
+  padding-bottom: 100px;
+  background-color: rgb(255, 250, 245);
+}
+
+.the-event .details {
+  z-index: 32;
+  width: 25.6%;
+  margin-top: 24px;
+}
+
+.the-event .down-arrow {
+  width: 12%;
+  margin: 230px 0 0 44%;
+  line-height: 1.38;
+  color: rgb(122, 64, 196);
+}
+
+.the-event .section {
+  float: left;
+  margin: 100px 0 0 16.79948%;
+}
+
+.the-party {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 46;
+  width: 100%;
+  margin-top: 1000px;
+  padding-bottom: 100px;
+  background-color: rgb(255, 250, 245);
+}
+
+.the-party .pic {
+  position: relative;
+  clear: both;
+  width: 18.8333333333%;
+  height: 220px;
+  margin-left: 10%;
+  border-color: rgb(255, 255, 255);
+  background-position: center center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.the-party .section {
+  width: 66.3333333333%;
+  margin: 100px auto 0;
+  text-align: center;
+}
+
+.the-proposal {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 30;
+  width: 100%;
+  margin-top: 800px;
+  padding-bottom: 100px;
+  background-color: rgb(255, 250, 245);
+}
+
+.the-proposal .pic {
+  position: relative;
+  height: 300px;
+  border-color: rgb(255, 250, 245);
+  background-position: center center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.the-proposal .section {
+  float: left;
+  margin: 100px 0 0 16.83073%;
+}
+
+._button {
+  display: block;
+  float: left;
+  clear: both;
+  font-size: 1em;
+  line-height: 1.38;
+  text-align: center;
+}
+
+._input {
+  display: block;
+  float: left;
+  height: 60px;
+  padding: 0 10px 0 20px;
+  background-color: rgba(255, 255, 255, 0.85);
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(0, 0, 0);
+}
+
+.gifts ._button {
+  position: relative;
+  z-index: 63;
+  width: 25.5989583333%;
+  height: 60px;
+  margin: 40px 0 0 16.79948%;
+  border: 5px solid rgb(122, 64, 196);
+  font-weight: 400;
+  color: rgb(122, 64, 196);
+}
+
+.gifts ._button:hover {
+  background-color: rgb(122, 64, 196);
+  color: rgb(255, 255, 255);
+}
+
+.hotel-block ._button {
+  width: 68.5673701298%;
+  height: 62px;
+  margin-left: 15.58809%;
+  background-color: rgb(122, 64, 196);
+  font-weight: 700;
+  color: rgb(255, 250, 245);
+}
+
+.empty-pic-1 {
+  z-index: 38;
+  margin-top: 30px;
+}
+
+.empty-pic-2 {
+  z-index: 39;
+  margin-top: 30px;
+}
+
+.empty-pic-3 {
+  z-index: 40;
+  margin-top: 30px;
+}
+
+.empty-pic-4 {
+  z-index: 42;
+  margin-top: 20px;
+}
+
+.empty-pic-5 {
+  z-index: 43;
+  margin-top: 20px;
+}
+
+.empty-pic-6 {
+  z-index: 44;
+  margin-top: 20px;
+}
+
+.herotitle-1 {
+  position: relative;
+  float: left;
+  z-index: 15;
+  width: 80%;
+  margin: 110px 0 0 10%;
+}
+
+.hotel-1 {
+  width: 100.9005905511%;
+}
+
+.hotel-2 {
+  width: 101.1574074074%;
+}
+
+.hotel-block-1 {
+  clear: both;
+  z-index: 52;
+  margin-left: 16.83073%;
+}
+
+.hotel-block-2 {
+  z-index: 57;
+  margin-left: 1.58073%;
+}
+
+.pic-1 {
+  width: 48.7437185929%;
+  background-image: url('../images/Nicole-Jeff-Engagement-164.jpg');
+  background-position: 50% 34%;
+}
+
+.pic-2 {
+  width: 48.7182003768%;
+  margin-left: 2.46528%;
+  background-image: url('../images/Nicole-Jeff-Engagement-242.jpg');
+  background-position: 50% 65%;
+}
+
+.pic-3 {
+  clear: both;
+  z-index: 25;
+  width: 32.4005208333%;
+  margin: 55px 0 0 16.79948%;
+  background-image: url('../images/SparklingDiamond.jpg');
+}
+
+.pic-4 {
+  z-index: 26;
+  width: 32.3997395833%;
+  margin: 55px 0 0 1.59896%;
+  background-image: url('../images/RomanticKiss.jpg');
+}
+
+.pic-5 {
+  clear: both;
+  z-index: 27;
+  width: 32.3997395833%;
+  margin: 20px 0 0 16.79948%;
+  background-image: url('../images/HappyHugs.jpg');
+}
+
+.pic-6 {
+  z-index: 28;
+  width: 32.3997395833%;
+  margin: 20px 0 0 1.66667%;
+  background-image: url('../images/PutARingOnIt2.jpg');
+}
+
+.pic-7 {
+  z-index: 37;
+  margin-top: 30px;
+  background-image: url('../images/10299089_10154116046385052_2097675454631917372_n.jpg');
+}
+
+.pic-8 {
+  z-index: 41;
+  margin-top: 20px;
+  background-image: url('../images/162703_10150138163230961_4830296_n.jpg');
+}
+
+.slide-1 {
+  height: 756px;
+  background-image: url('../images/Nicole-Jeff-Engagement-230(2).jpg');
+  background-position: 50% 80%;
+}
+
+.slide-2 {
+  clear: both;
+  height: 1059px;
+  background-image: url('../images/TheQuestion(2).jpg');
+  background-position: left center;
+}
+
+.slide-3 {
+  clear: both;
+  height: 1059px;
+  background-image: url('../images/Evening-from-lawn-2editedGershon-Wolfe-small.jpg');
+  background-position: center center;
+}
+
+.slide-4 {
+  clear: both;
+  height: 1059px;
+  background-image: url('../images/Nicole-Jeff-Engagement-143(2).jpg');
+  background-position: center center;
+}
+
+.slide-5 {
+  clear: both;
+  height: 1059px;
+  background-image: url('../images/2000x1352.jpg');
+  background-position: center center;
+}
+
+.slide-6 {
+  clear: both;
+  height: 1059px;
+  background-image: url('../images/Nicole-Jeff-Engagement-139(2).jpg');
+  background-position: center center;
+}
+
+.text-1 {
+  width: 39.1666666666%;
+  margin: 143px auto 0;
+  font-weight: 400;
+}
+
+.hero-form ._input-1 {
+  width: 59.1194968553%;
+  margin-left: 0.04914%;
+}
+
+.hero-form ._input-2 {
+  width: 18.1132075471%;
+  margin-left: 2.3565299999%;
+}
+
+.hotel-block ._button-1 {
+  margin-top: 147px;
+}
+
+.hotel-block ._button-2 {
+  margin-top: 146px;
+}
+
+.details span {
+  font-weight: 700;
+  color: rgb(122, 64, 196);
+}
