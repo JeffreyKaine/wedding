@@ -1,3 +1,5 @@
+@import "./stylesheet.css";
+
 body {
   background-color: rgb(255, 255, 255);
   font: 300 1em/1.38 Lato;
