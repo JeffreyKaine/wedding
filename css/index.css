@@ -226,10 +226,6 @@ body {
   background-color: rgb(255, 250, 245);
 }
 
-.jeffs-story .bio {
-  width: 31.9710286458%;
-}
-
 .jeffs-story .section,
 .nicoles-story .section {
   float: left;
@@ -241,7 +237,15 @@ body {
 }
 
 .jeffs-story .story {
-  width: 79.9765625%;
+  width: 80%;
+  -webkit-column-count: 3;
+     -moz-column-count: 3;
+          column-count: 3;
+}
+
+.jeffs-story .story .bio strong,
+.nicoles-story .story .bio strong {
+  text-align: left;
 }
 
 .map-wrapper {
@@ -267,12 +271,11 @@ body {
   background-color: rgb(255, 250, 245);
 }
 
-.nicoles-story .bio {
-  width: 31.9791666666%;
-}
-
 .nicoles-story .story {
-  width: 79.9830729166%;
+  width: 80%;
+  -webkit-column-count: 3;
+     -moz-column-count: 3;
+          column-count: 3;
 }
 
 .pic {
@@ -340,6 +343,14 @@ body {
 
 .story .bio {
   font-size: 1em;
+}
+
+.nicoles-story .strong-bio {
+  margin-bottom: 2em;
+}
+
+.jeffs-story .strong-bio {
+  margin-bottom: 1.25em;
 }
 
 .text {
@@ -512,19 +523,6 @@ body {
   background-color: rgb(122, 64, 196);
   font-weight: 700;
   color: rgb(255, 250, 245);
-}
-
-.bio-3,
-.bio-4 {
-  margin: 16px 0 0 2.01866%;
-}
-
-.bio-6 {
-  margin: 16px 0 0 2.02208%;
-}
-
-.bio-7 {
-  margin: 16px 0 0 2.02859%;
 }
 
 .empty-pic-1 {
@@ -757,7 +755,7 @@ body {
 }
 
 .bio strong {
-  font-size: 2em;
+  font-size: 1.8em;
 }
 
 .bio-1 strong {
