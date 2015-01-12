@@ -130,6 +130,7 @@ body {
   width: 18.8333333333%;
   height: 220px;
   margin-left: 1.5%;
+  border: 5px;
   border-color: rgb(255, 255, 255);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 }
