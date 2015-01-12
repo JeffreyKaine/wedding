@@ -539,12 +539,14 @@ body {
 .empty-pic-2 {
   z-index: 53;
   margin-top: 30px;
+  background-image: url('http://i.imgur.com/sazTDRj.jpg');
   background-size: cover;
 }
 
 .empty-pic-3 {
   z-index: 54;
   margin-top: 30px;
+  background-image: url('http://i.imgur.com/RYzUwN7.jpg');
   background-size: cover;
 }
 
