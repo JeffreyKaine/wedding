@@ -409,11 +409,13 @@ body {
 
 .the-party .pic {
   clear: both;
+  float: left;
   width: 18.8333333333%;
   height: 220px;
   margin-left: 10%;
   border-color: rgb(255, 255, 255);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  margin-right: 20px;
 }
 
 .the-party .section {
@@ -565,11 +567,11 @@ body {
 }
 
 .hotel-1 {
-  width: 100.9005905511%;
+  width: 100%;
 }
 
 .hotel-2 {
-  width: 101.1574074074%;
+  width: 100%;
 }
 
 .hotel-block-1 {
@@ -747,8 +749,20 @@ body {
 }
 
 .hotel-block ._button-2 {
-  margin-top: 146px;
-  opacity: 0.5;
+  margin-top: 147px;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+  -o-transition: .2s;
+  -ms-transition: .2s;
+  transition: .2s;
+}
+
+.hotel-block ._button-2:hover {
+  -webkit-transform: scale(1.05,1.05);
+  -moz-transform: scale(1.05,1.05);
+  -o-transform: scale(1.05,1.05);
+  -ms-transform: scale(1.05,1.05);
+  transform: scale(1.05,1.05);
 }
 
 .bio span {
