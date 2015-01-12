@@ -530,31 +530,37 @@ body {
   z-index: 52;
   margin-top: 30px;
   background-image: url('https://scontent-2.2914.fna.fbcdn.net/hphotos-xfa1/v/t1.0-9/378031_10100233368604356_451057285_n.jpg?oh=062883244657964bbedcf4259ae7e812&oe=556C03FF');
+  background-size: cover;
 }
 
 .empty-pic-2 {
   z-index: 53;
   margin-top: 30px;
+  background-size: cover;
 }
 
 .empty-pic-3 {
   z-index: 54;
   margin-top: 30px;
+  background-size: cover;
 }
 
 .empty-pic-4 {
   z-index: 56;
   margin-top: 20px;
+  background-size: cover;
 }
 
 .empty-pic-5 {
   z-index: 57;
   margin-top: 20px;
+  background-size: cover;
 }
 
 .empty-pic-6 {
   z-index: 58;
   margin-top: 20px;
+  background-size: cover;
 }
 
 .herotitle-1 {
