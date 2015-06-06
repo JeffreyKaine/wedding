@@ -567,6 +567,7 @@ body {
 .empty-pic-6 {
   z-index: 58;
   margin-top: 20px;
+  background-image: url('http://i.imgur.com/5oOn1tp.jpg');
   background-size: cover;
 }
 
