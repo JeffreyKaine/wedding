@@ -483,15 +483,14 @@ body {
   color: rgb(122, 64, 196);
 }
 
-.welcome .text {
+.welcome .section {
   float: left;
   width: 66.4005208333%;
   min-height: 74px;
   margin: 150px 0 0 16.79948%;
-  font-family: JaneAusten;
   font-size: 3.5em;
-  font-weight: normal;
-  color: rgb(122, 64, 196);
+  line-height: 1.38;
+  text-align: center;
 }
 
 ._button {
