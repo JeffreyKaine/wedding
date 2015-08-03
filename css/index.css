@@ -12,6 +12,24 @@ body {
   margin-bottom: 1em;
 }
 
+.itenerary {
+  float: left;
+  clear: both;
+  width: 100%;
+  margin-top: 60px;
+}
+
+.itenerary-item {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.itenerary-item .bio {
+  font-size: 1.313em;
+  font-weight: 100;
+  text-align: center;
+}
+
 .accomadotions {
   position: relative;
   float: left;
